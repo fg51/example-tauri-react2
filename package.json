@@ -1,0 +1,24 @@
+{
+  "name": "example-tauri-react2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tauri": "tauri",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kflange/example-tauri-react2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kflange/example-tauri-react2/issues"
+  },
+  "homepage": "https://github.com/kflange/example-tauri-react2#readme",
+  "dependencies": {
+    "tauri": "^0.14.1"
+  }
+}
