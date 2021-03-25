@@ -2,12 +2,13 @@
   "name": "example-tauri-react2",
   "version": "0.0.0-develop",
   "description": "",
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
-    "build": "webpack --progress",
+    "build": "webpack",
     "bundle": "tauri build",
     "clean": "rimraf dist",
-    "dev": "tauri dev",
+    "devt": "tauri dev",
+    "devw": "webpack-cli serve --mode development",
     "start": "webpack serve",
     "tauri": "tauri",
     "test": "echo \"Error: no test specified\" && exit 1"
